@@ -1,6 +1,8 @@
 from django.conf.urls import url
 from .import views
 
+app_name = "reviews"
+
 urlpatterns = [
     # ex: /
     url(r'^$', views.review_list, name='review_list'),
